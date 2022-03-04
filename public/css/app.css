@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+li {
+  list-style: none;
+}
+
+.cards {
+  max-width: 1200px;
+  margin: 100px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.cards .card {
+  width: 200px;
+  height: 225px;
+  margin: 10px 5px;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.cards .card span {
+  font-weight: bold;
+}
+
+.cards .card li {
+  padding: 5px 0px;
+}
+

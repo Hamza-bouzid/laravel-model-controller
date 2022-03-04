@@ -1,0 +1,25 @@
+.cards {
+    max-width: 1200px;
+    margin: 100px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    .card {
+        width: 200px;
+        height: 225px;
+        margin: 10px 5px;
+        background-color: #fff;
+        border-radius: 5px;
+        padding: 10px;
+
+        span {
+          font-weight: bold;
+        }
+
+        li {
+         padding: 5px 0px;
+        }
+    }
+}
