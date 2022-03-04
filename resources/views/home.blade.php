@@ -1,0 +1,1 @@
+@dump($lista_movies[0]);
