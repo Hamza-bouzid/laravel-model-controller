@@ -12,9 +12,15 @@ li {
   list-style: none;
 }
 
+h1 {
+  text-align: center;
+  color: #fff;
+  font-size: 100px;
+}
+
 .cards {
   max-width: 1200px;
-  margin: 100px auto;
+  margin: 80px auto;
   display: flex;
   justify-content: center;
   align-items: center;

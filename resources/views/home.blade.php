@@ -8,6 +8,8 @@
   <title>Document</title>
 </head>
 <body>
+
+  <h1>Film</h1>
   <div class="cards">
     
       @foreach ($lista_movies; as $movie)
